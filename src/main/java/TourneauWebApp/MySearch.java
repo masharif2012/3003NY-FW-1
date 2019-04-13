@@ -23,8 +23,8 @@ public class MySearch {
         driver.get("https://www.tourneau.com/");
     }
     public void getPageTitle(){
-        //printing page title
-        System.out.println("This is the landing page Title: "+driver.getTitle());
+        //printing page-title
+        System.out.println("This is the landing page-Title: "+driver.getTitle());
     }
     public void searchInput (){
         //driver.findElement(By.cssSelector("#header > header > div.header-search > form > fieldset > input.valid")).sendKeys("Air-King");
